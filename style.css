@@ -1,3 +1,64 @@
+
 body {
-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    margin: 1px;
+    background-color: #1ac6ff;
+    
+    justify-content: center;
+    align-content: space-between;
+}
+
+.tytul{
+position: absolute;
+    top: 0%;
+    left: 1%;
+    font-size: small;
+}
+
+.podtytul{
+    position: relative;
+    top: 5%;
+    font-size: medium;
+}
+
+.herb{
+    position: relative;
+    top: 1%;
+    left: 39%;
+}
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.d{
+    grid-area: d;
+}
+
+.e{
+    grid-area: e;
+}
+
+.grid-container {
+    display: grid;
+    height: 200vh;
+    border: 1px solid black;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 20% 50% 30%;
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "e e e";
 }
