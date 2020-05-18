@@ -8,16 +8,40 @@ body {
     display: flex;
     margin: 1px;
     background-color: #1ac6ff;
-    
     justify-content: center;
     align-content: space-between;
 }
+
 
 .tytul{
 position: absolute;
     top: 0%;
     left: 1%;
     font-size: small;
+}
+.al{
+    flex-direction: column;
+}
+
+.obj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tr{
+    background-color: lightcyan;
+    border: 1px solid black;
+}
+
+.th{
+    background-color: lightslategrey;
+    border: 1px solid black;
 }
 
 .podtytul{
@@ -55,8 +79,8 @@ position: absolute;
     display: grid;
     height: 200vh;
     border: 1px solid black;
-    grid-template-columns: 40% 30% 30%;
-    grid-template-rows: 20% 50% 30%;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 20% 60% 20%;
     grid-template-areas: 
     "a a a"
     "b c d"

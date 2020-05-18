@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    margin: 1px;
+    background-color: #1ac6ff;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.asd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.grid-container {
+    display: grid;
+    height: 110vh;
+    border: 1px solid black;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "a b b"
+    "a c c";
+}
