@@ -81,7 +81,7 @@
                     $conn = new mysqli($servername, $username, $password, $dbname);
     
     
-                    $result2 = $conn->query("SELECT Osoba, Rola FROM szko");
+                    $result2 = $conn->query("SELECT Osoba, Funkcja FROM sztab");
     
                     echo("<table class='tabelka' border=1>");
                     echo("<tr>
@@ -92,7 +92,7 @@
                     while($row=$result2->fetch_assoc() ){
                         echo("<tr>");
                         echo("<td>".$row['Osoba']."</td>");
-                        echo("<td>".$row['Rola']."</td>");
+                        echo("<td>".$row['Funkcja']."</td>");
                         echo("</tr>");
                     }
                     echo("</table>")
