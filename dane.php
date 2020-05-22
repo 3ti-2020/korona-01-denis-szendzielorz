@@ -5,12 +5,16 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
+  <body onload="load()">
     <div class="grid-container">
 
     <div class="item a">
             <div class="tytul">
                 <h1>Denis Szendzielorz</h1>
+                <form class="fixed-form">
+                  <label for="text-color-picker">Kolor tekstu</label>
+                  <input type="color" name="text-color" id="text-color-picker"><br/>
+</form>
             </div>
 
             <div class="podtytul">

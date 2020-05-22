@@ -14,7 +14,6 @@ body {
 
 .asd{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -26,12 +25,31 @@ body {
 
 .b{
     grid-area: b;
+    align-items: center;
+    justify-content: center;
 }
 
 .c{
     grid-area: c;
+    align-items: center;
+    justify-content: center;
 }
 
+.b2{
+    grid-area:b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+.c2{
+    grid-area:c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+}
 .grid-container {
     display: grid;
     height: 110vh;
